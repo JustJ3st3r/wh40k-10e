@@ -138,109 +138,6 @@
     <entryLink hidden="false" id="5731-527b-3b65-d257" import="true" name="Warlord" targetId="caa-f869-3cbd-b48e" type="selectionEntry"/>
    </entryLinks>
   </selectionEntry>
-  <selectionEntry collective="false" hidden="false" id="icarro-full-entry" import="true" name="Icarro the Grey Hound" type="model">
-  <infoLinks>
-  <infoLink name="Break Them Down" type="rule" hidden="false" id="info-break" targetId="rule-break"/>
-  <infoLink name="Dodge the Shell" type="rule" hidden="false" id="info-break" targetId="rule-dodge"/>
-  <infoLink name="Oath of Moment" type="rule" hidden="false" id="info-oom" targetId="rule-oom"/>
-  <infoLink name="Leader" type="rule" hidden="false" id="info-leader" targetId="rule-leader"/>
-  <infoLinks>
-     <costs>
-      <cost name="pts" typeId="51b2-306e-1021-d207" value="60"/>
-     </costs>
-     <categoryLinks>
-      <categoryLink id="cat-infantry" name="Infantry" primary="false" targetId="cf47-a0d7-7207-29dc"/>
-      <categoryLink id="cat-character" name="Character" primary="false" targetId="9cfd-1c32-585f-7d5c"/>
-      <categoryLink id="cat-leader" name="Leader" primary="false" targetId="4f3a-f0f7-6647-348d"/>
-      <categoryLink id="cat-imperium" name="Imperium" primary="false" targetId="aff3-d6a3-2a95-9dc"/>
-      <categoryLink id="cat-faction:-adeptus-astartes" name="Faction: Adeptus Astartes" primary="false" targetId="6e7-40c-58d9-e402"/>
-      <categoryLink id="cat-lieutenant" name="Lieutenant" primary="false" targetId="d153-2ee3-999a-cf02"/>
-     </categoryLinks>
-     <profiles>
-      <profile hidden="false" id="profile-icarro" name="Icarro the Grey Hound" typeId="c547-1836-d8a-ff4f" typeName="Unit">
-       <characteristics>
-        <characteristic name="M">
-         6"
-        </characteristic>
-        <characteristic name="T">
-         4
-        </characteristic>
-        <characteristic name="SV">
-         3+
-        </characteristic>
-        <characteristic name="W">
-         4
-        </characteristic>
-        <characteristic name="LD">
-         6+
-        </characteristic>
-        <characteristic name="OC">
-         1
-        </characteristic>
-       </characteristics>
-      </profile>
-     </profiles>
-     <selectionEntries>
-      <selectionEntry hidden="false" id="icarro-bolt-pistol" import="true" name="Bolt Pistol" type="upgrade">
-       <profiles>
-        <profile hidden="false" id="profile-bolt" name="Bolt Pistol" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
-         <characteristics>
-          <characteristic name="Range">
-           6"
-          </characteristic>
-          <characteristic name="A">
-           1
-          </characteristic>
-          <characteristic name="BS">
-           3+
-          </characteristic>
-          <characteristic name="S">
-           4
-          </characteristic>
-          <characteristic name="AP">
-           0
-          </characteristic>
-          <characteristic name="D">
-           1
-          </characteristic>
-          <characteristic name="Keywords">
-           Pistol
-          </characteristic>
-         </characteristics>
-        </profile>
-       </profiles>
-      </selectionEntry>
-      <selectionEntry hidden="false" id="icarro-power-fist" import="true" name="Siege-pattern Power Fist" type="upgrade">
-       <profiles>
-        <profile hidden="false" id="profile-fist" name="Siege-pattern Power Fist" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
-         <characteristics>
-          <characteristic name="Range">
-           Melee
-          </characteristic>
-          <characteristic name="A">
-           4
-          </characteristic>
-          <characteristic name="WS">
-           2+
-          </characteristic>
-          <characteristic name="S">
-           8
-          </characteristic>
-          <characteristic name="AP">
-           -2
-          </characteristic>
-          <characteristic name="D">
-           2
-          </characteristic>
-          <characteristic name="Keywords">
-           -
-          </characteristic>
-         </characteristics>
-        </profile>
-       </profiles>
-      </selectionEntry>
-     </selectionEntries>
-    </selectionEntry>
   <selectionEntry hidden="false" id="5936-83d6-4e30-915c" import="true" name="Tor Garadon" type="model">
    <infoLinks>
     <infoLink hidden="false" id="8c7d-7155-9796-3a50" name="Leader" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
@@ -573,6 +470,109 @@ Veteran Squad units from your army have an Objective Control characteristic of 
     <entryLink hidden="false" id="42b3-a452-360d-a1d1" import="true" name="Warlord" targetId="caa-f869-3cbd-b48e" type="selectionEntry"/>
    </entryLinks>
   </selectionEntry>
+  <selectionEntry hidden="false" id="icarro-full-entry" import="true" name="Icarro the Grey Hound" type="model">
+  <infoLinks>
+  <infoLink name="Break Them Down" type="rule" hidden="false" id="info-break" targetId="rule-break"/>
+  <infoLink name="Dodge the Shell" type="rule" hidden="false" id="info-break" targetId="rule-dodge"/>
+  <infoLink name="Oath of Moment" type="rule" hidden="false" id="info-oom" targetId="rule-oom"/>
+  <infoLink name="Leader" type="rule" hidden="false" id="info-leader" targetId="rule-leader"/>
+  <infoLinks>
+     <costs>
+      <cost name="pts" typeId="51b2-306e-1021-d207" value="60"/>
+     </costs>
+     <categoryLinks>
+      <categoryLink id="cat-infantry" name="Infantry" primary="false" targetId="cf47-a0d7-7207-29dc"/>
+      <categoryLink id="cat-character" name="Character" primary="false" targetId="9cfd-1c32-585f-7d5c"/>
+      <categoryLink id="cat-leader" name="Leader" primary="false" targetId="4f3a-f0f7-6647-348d"/>
+      <categoryLink id="cat-imperium" name="Imperium" primary="false" targetId="aff3-d6a3-2a95-9dc"/>
+      <categoryLink id="cat-faction:-adeptus-astartes" name="Faction: Adeptus Astartes" primary="false" targetId="6e7-40c-58d9-e402"/>
+      <categoryLink id="cat-lieutenant" name="Lieutenant" primary="false" targetId="d153-2ee3-999a-cf02"/>
+     </categoryLinks>
+     <profiles>
+      <profile hidden="false" id="profile-icarro" name="Icarro the Grey Hound" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+       <characteristics>
+        <characteristic name="M">
+         6"
+        </characteristic>
+        <characteristic name="T">
+         4
+        </characteristic>
+        <characteristic name="SV">
+         3+
+        </characteristic>
+        <characteristic name="W">
+         4
+        </characteristic>
+        <characteristic name="LD">
+         6+
+        </characteristic>
+        <characteristic name="OC">
+         1
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
+     <selectionEntries>
+      <selectionEntry hidden="false" id="icarro-bolt-pistol" import="true" name="Bolt Pistol" type="upgrade">
+       <profiles>
+        <profile hidden="false" id="profile-bolt" name="Bolt Pistol" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+         <characteristics>
+          <characteristic name="Range">
+           6"
+          </characteristic>
+          <characteristic name="A">
+           1
+          </characteristic>
+          <characteristic name="BS">
+           3+
+          </characteristic>
+          <characteristic name="S">
+           4
+          </characteristic>
+          <characteristic name="AP">
+           0
+          </characteristic>
+          <characteristic name="D">
+           1
+          </characteristic>
+          <characteristic name="Keywords">
+           Pistol
+          </characteristic>
+         </characteristics>
+        </profile>
+       </profiles>
+      </selectionEntry>
+      <selectionEntry hidden="false" id="icarro-power-fist" import="true" name="Siege-pattern Power Fist" type="upgrade">
+       <profiles>
+        <profile hidden="false" id="profile-fist" name="Siege-pattern Power Fist" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+         <characteristics>
+          <characteristic name="Range">
+           Melee
+          </characteristic>
+          <characteristic name="A">
+           4
+          </characteristic>
+          <characteristic name="WS">
+           2+
+          </characteristic>
+          <characteristic name="S">
+           8
+          </characteristic>
+          <characteristic name="AP">
+           -2
+          </characteristic>
+          <characteristic name="D">
+           2
+          </characteristic>
+          <characteristic name="Keywords">
+           -
+          </characteristic>
+         </characteristics>
+        </profile>
+       </profiles>
+      </selectionEntry>
+     </selectionEntries>
+   </selectionEntry>
  </sharedSelectionEntries>
  <categoryEntries>
   <categoryEntry hidden="false" id="f797-f718-df7d-8545" name="Darnath Lysander"/>
@@ -581,6 +581,7 @@ Veteran Squad units from your army have an Objective Control characteristic of 
  </categoryEntries>
  <entryLinks>
   <entryLink hidden="false" id="1b9c-5fc3-d8c7-46fa" import="true" name="Darnath Lysander" targetId="eecd-6976-6410-1e42" type="selectionEntry"/>
+  <entryLink hidden="false" id="profile-icarro2" import="true" name="Icarro the Grey Hound" targetId="profile-icarro" type="selectionEntry"/>
   <entryLink hidden="false" id="109d-48c6-54ac-eb81" import="true" name="Tor Garadon" targetId="5936-83d6-4e30-915c" type="selectionEntry"/>
   <entryLink hidden="false" id="776a-7bf7-2b4c-3211" import="true" name="Pedro Kantor" targetId="59e3-5a97-f36d-5b94" type="selectionEntry"/>
  </entryLinks>
